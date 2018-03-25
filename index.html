@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Test and Notes</title>
+</head>
+<body>
+    <header>
+    </header>
+    <div id= "container">
+        <div id= "pageTitle">
+            <h1>Javascript Testing</h1>
+        </div>
+        <div id= "scipt">
+            <script>
+                var userName = prompt("What's your name?");
+                var userAge = prompt ("What's your age?");
+                // var user21 = confirm ("Are you over 21?");
+
+                if (userAge >= 21){
+                alert("You can have a drink on me!");
+                document.write("Your name is " +userName + " and you are " + userAge + " years old. You are allowed to drink.");
+                }
+                else {
+                // alert provides a popup. Use console.log to log to the console.
+                alert("No drinks for you");
+                // document write allows you to write to the html file.
+                document.write("Your name is " +userName + " and you are " + userAge + " years old. You aren't allowed to drink.");
+                }
+
+                //  document.write("Your name is " +userName + " and you are " + userAge + " years old.");
+                //  console.log(user21);
+    
+            </script>
+        </div>
+    </div>
+</body>
+</html>
